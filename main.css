@@ -31,7 +31,8 @@ nav{
   font-size: 20px;
   font-family: masqualero, sans-serif;
   font-style: oblique;
-  background: white;
+  color: white;
+  font-weight: bold;
   padding: 10px;
 	text-align: center;
 }
