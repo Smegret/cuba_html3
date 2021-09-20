@@ -23,18 +23,18 @@ header{
  font-family: masqualero-groove, sans-serif;
  font-weight: 400;
  font-style: normal;
+
  }
 
 nav{
-  float: left;
+float: right;
   width: 20%;
   font-size: 20px;
   font-family: masqualero, sans-serif;
   font-style: oblique;
-  color: white;
   font-weight: bold;
   padding: 10px;
-	text-align: center;
+	text-align: right;
 }
 
 nav ul{
@@ -45,7 +45,7 @@ nav ul{
 
 nav a:link {
 font-family: masqualero, sans-serif;
-  color:rgba(104,104,104,.75);
+  color: white;
   text-decoration: none;
   margin-right: 20px;
 }
@@ -54,7 +54,7 @@ nav a:visited {
 }
 
 nav a:hover {
-  color:rgba(104,104,104,1);
+  color: black;
 }
 
 nav a:active {
