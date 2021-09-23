@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CSS Grids</title>
+    <style>
+      .grid{
+        display:grid;
+        grid-template-columns: 70% 30%;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+      }
+
+      .grid >div{
+        background: lightgray;
+        padding: 10px;
+      }
+      .grid > div:nth-child(odd){
+        background: #ddd;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="grid">
+      <div>
+        <p>
+          Non dolor aute fugiat nescius. Appellat
+          nulla aliqua quo export, voluptate malis
+          irure mandaremus irure. In fugiat
+          fabulas ita ab fugiat sint minim
+          doctrina, de amet velit enim laboris,
+          aliquip quae illum ab magna iis legam se
+          occaecat de dolor, quid iudicem doctrina
+          ubi qui sint anim non excepteur, esse
+          occaecat iis noster magna.Laboris
+          instituendarum eu mandaremus si officia
+          quo minim mandaremus. An enim
+          tractavissent, cillum e voluptate ita
+          ita tamen fabulas imitarentur, consequat
+          sunt eiusmod te ab sint velit ita
+          expetendis hic proident sed minim ea a
+          nisi litteris offendit, cupidatat duis
+          mandaremus pariatur. Eu illum veniam
+          summis commodo, nostrud sint occaecat.
+        </p>
+      </div>
+      <div>
+        Occaecat aute si mandaremus
+        fidelissimae. Se ea ipsum
+        multos noster. Iis fore
+        coniunctione id quamquam
+        praesentibus ex admodum, eu
+        multos do quis, malis
+        illustriora litteris dolore
+        proident. Quem laboris si
+        consectetur qui quid ingeniis
+        se ingeniis id sed quid tempor
+        nam mentitum, ab aut enim esse
+        legam.
+      </div>
+    </div>
+
+  </body>
+</html>
